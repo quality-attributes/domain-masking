@@ -1,0 +1,163 @@
+,text,label
+0,The system shall capture and maintain demographic information as discrete data elements as part of the user record .,MAINTAINABILITY
+1,The system shall store medication information in discrete data fields .,MAINTAINABILITY
+2,The system shall provide the ability to capture user history in a standard coded form .,MAINTAINABILITY
+3,The system shall provide templates for inputting data in a structured format as part of clinical documentation .,USABILITY
+4,The system shall display user annotations in a manner which distinguishes them from other content in the system .,USABILITY
+5,"The system shall enforce the most restrictive set of rights or privileges or accesses needed by user or user e.g. user , user , user , user , etc. . , or processes acting on behalf of user , for the performance of specified tasks .",SECURITY
+6,The system shall have the ability to format for export recorded time stamps using based on ISO .,MAINTAINABILITY
+7,"The system shall authenticate the user before any access to Protected Resources e.g. PHI is allowed , including when not connected to a network e.g. mobile devices .",SECURITY
+8,"When passwords are used , the system shall support password strength rules that allow for minimum number of characters , and inclusion of alpha-numeric complexity .",SECURITY
+9,"The system upon detection of inactivity of an interactive session shall prevent further viewing and access to the system by that session by terminating the session , or by initiating a session lock that remains in effect until the user reestablishes access using appropriate identification and authentication procedures .",SECURITY
+10,The inactivity timeout shall be configurable .,SECURITY
+11,The system shall enforce a limit of configurable consecutive invalid access attempts by a user .,SECURITY
+12,"The system shall protect against further , possibly malicious , user authentication attempts using an appropriate mechanism e.g. locks the account or node until released by an administrator , locks the account or node for a configurable time period , or delays the next login prompt according to a configurable delay algorithm .",SECURITY
+13,"When passwords are used , the system shall provide an administrative function that resets passwords .",SECURITY
+14,"When passwords are used , user accounts that have been reset by an administrator shall require the user to change the password at next successful logon .",SECURITY
+15,The system shall provide only limited feedback information to the user during the authentication .,SECURITY
+16,"When passwords are used , the system shall allow an authenticated user to change their password consistent with password strength rules .",SECURITY
+17,"When passwords are used , the system shall use either standards-based encryption , e.g. , 3DES , , or standards-based hashing , e.g. , SHA1 to store or transport passwords .",SECURITY
+18,"When passwords are used , the system shall prevent the reuse of passwords previously used within a specific configurable timeframe i.e. , within the last X days , etc. e.g. last 180 days , or shall prevent the reuse of a certain configurable number of the most recently used passwords e.g. last passwords .",SECURITY
+19,"The system shall include documentation that explains system error or performance messages to user and administrators , with the actions required .",USABILITY
+20,"The system shall include documentation of product capacities e.g. number of user , number of transactions per second , number of records , network load , etc. . and the baseline representative configurations assumed for these capacities e.g. number or type of processors , server or workstation configuration and network capacity , etc .",PERFORMANCE
+21,"The system shall include documentation available to the user stating whether or not there are known issues or conflicts with security services in at least the following service areas : antivirus , intrusion detection , malware eradication , host-based firewall and the resolution of that conflict e.g. most system should note that full virus scanning should be done outside of peak usage times and should exclude the databases .",SECURITY
+22,"The system shall include documentation that itemizes the services e.g. PHP , web services and network protocols/ports e.g. HL-7 , HTTP , FTP that are necessary for proper operation and servicing of the system , including justification of the need for that service and protocol .",SECURITY
+23,This information may be used by the user to properly configure their network defenses firewalls and routers .,SECURITY
+24,"The system shall include documentation available to the user that provides guidelines for configuration and use of the security controls necessary to support secure and reliable operation of the system , including but not limited to : creation , modification , and deactivation of user accounts , management of roles , reset of passwords , configuration of password constraints , and audit logs .",SECURITY
+25,"The software used to install and update the system , independent of the mode or method of conveyance , shall be certified free of malevolent software malware .",SECURITY
+26,user may self-certify compliance with this standard through procedures that make use of commercial malware scanning software .,SECURITY
+27,"The system shall support protection of confidentiality of all Protected Health Information PHI delivered over the Internet or other known open networks via encryption using triple-DES 3DES or the Advanced Encryption Standard and an open protocol such as TLS , SSL , IPSec , XML encryptions , or S or MIME or their successors .",SECURITY
+28,For system that provide access to PHI through a web browser interface i.e. HTML over HTTP shall include the capability to encrypt the data communicated over the network via SSL HTML over HTTPS .,SECURITY
+29,"The system shall support ensuring the authenticity of remote nodes mutual node authentication when communicating Protected Health Information PHI over the Internet or other known open networks using an open protocol e.g. TLS , SSL , IPSec , XML sig , S or MIME .",SECURITY
+30,"The system , when storing PHI on any device intended to be portable or removable e.g. thumb-drives , CD-ROM , PDA , Notebook , shall support use of a standards based encrypted format using triple-DES 3DES , or the Advanced Encryption Standard AES , or their successors .",SECURITY
+31,"The system , prior to access to any PHI , shall display a configurable warning or login banner e.g. `` The system should only be accessed by authorized user '' .",SECURITY
+32,"In the event that a system does not support pre-login capabilities , the system shall display the banner immediately following authorization .",SECURITY
+33,The system has capability to use visual cues to highlight abnormal results .,USABILITY
+34,The system will need the support capability of up to and beyond default schedules .,PERFORMANCE
+35,There is no limitation to the number of accepted formats .,PERFORMANCE
+36,The system shall be based upon proven state-of-the-art technologies .,MAINTAINABILITY
+37,"This includes browser-based , server-side architectures , configurable , and a range of industry-standard database , operating system , and programming platforms .",MAINTAINABILITY
+38,"The system , including programs , database , and ancillary hardware and related software system shall be able to retain its performance levels when adding additional user , functions , and data .",PERFORMANCE
+39,The system shall be scalable and adaptable to meet future growth and expansion needs .,PERFORMANCE
+40,The system functionality and associated business rules shall be configured and re-configured through tools that do not require code modifications .,MAINTAINABILITY
+41,"The screens shall be highly re-configurable , providing ability to reposition and rename field labels , remove or `` turn-off '' unused fields , maintain data , and allow addition of custom-defined fields .",MAINTAINABILITY
+42,The system shall use an open relational database management system RDBMS to store all organization data .,MAINTAINABILITY
+43,The database system shall provide Structured Query Language SQL capabilities for database queries .,MAINTAINABILITY
+44,"The system shall allow the database information exchange using current commonly accepted industry formats e.g. HL7 , XML .",MAINTAINABILITY
+45,The system shall support common database connectivity protocols such as ODBC .,MAINTAINABILITY
+46,The system shall provide an automated test script to validate the data after modifications or upgrades .,MAINTAINABILITY
+47,The system will support the ability to customize the script and provide a final report to document the validation .,MAINTAINABILITY
+48,The database system shall provide the following features :,MAINTAINABILITY
+49,"The system shall support an online data dictionary and table relationships that describe and maintain information on each data element including : data element name and type , description of the data element , and the format of each data element .",MAINTAINABILITY
+50,"The system shall utilize naming conventions and standards for data elements , entities and tables , programs , report names , etc. .",MAINTAINABILITY
+51,"The system shall utilize utilities for database performance monitoring and tuning that comply with industry standards , including but not limited to tools for table & file maintenance .",MAINTAINABILITY
+52,The system shall support online modifications to database structures with minimal user downtime .,AVAILABILITY
+53,The system shall provide the ability to load information from standard file s .,MAINTAINABILITY
+54,The system shall provide the ability to perform real-time updates .,MAINTAINABILITY
+55,The system shall provide ability to use a single user sign-on for all modules with security configured for each module .,SECURITY
+56,The system shall have the ability for security module to be maintained by an in-house system Administrator,SECURITY
+57,The system shall provide expiration dates for passwords .,SECURITY
+58,The system shall automatically notify user and force them to change passwords on a pre-defined frequency .,SECURITY
+59,"The system shall have the ability to support web based client access or other internet based client access technologies , with appropriate security access controls .",SECURITY
+60,system must support password complexity that meets the following requirements :,SECURITY
+61,Disable accounts after 90 days of inactivity,SECURITY
+62,system provides the following password change rules for user accounts :,SECURITY
+63,Passwords can be changed by the associated user only once within a 2-day period,SECURITY
+64,user are re-authenticated before changing passwords,SECURITY
+65,The system shall provide lock-out capability after a pre-defined number of unsuccessful user sign-on attempts .,SECURITY
+66,The password is not displayed as clear text Password Masking,SECURITY
+67,system provides integrated security managed in a central accounts database,SECURITY
+68,system allows viewing of list of user logged on to system in real-time,SECURITY
+69,system allows addition of user-defined messages to logon screen,SECURITY
+70,system performs secure and seamless logon for all third party integrated systems .,SECURITY
+71,system encrypts passwords before being stored or transmitted .,SECURITY
+72,system has the ability to disallow more than active session per sign-on identification .,SECURITY
+73,system allows user to re-authenticate and remotely log out of an active user session before logging in at another location .,SECURITY
+74,"system encrypts sensitive data transmitted between user and servers using Secure Socket Layer SSL Certificates , Transport Layer Security TLS , or by other means",SECURITY
+75,system provides a web HTTPS interface and provides an SSL configuration mechanism .,SECURITY
+76,system allows secure password resets in case passwords are forgotten .,SECURITY
+77,system provides reminder alerts to user to reset passwords .,SECURITY
+78,The time for passwords to be changed is predefined as per user 's role and access level .,SECURITY
+79,The County standard for user is 90 days .,SECURITY
+80,system provides the option for multi-factor authentication for user with higher security access .,SECURITY
+81,"Ability for an administrator to delegate authority , by user group , to reset password",SECURITY
+82,"Ability for an administrator to delegate authority , by user group , to restore system access of locked out user",SECURITY
+83,The system shall have the ability to display the last date and time the user logged onto the system at the time of logon .,SECURITY
+84,system insures that input validation is applied whenever input is received through user or external data interfaces .,SECURITY
+85,"The validation approach is to constrain , reject , and then sanitize input .",SECURITY
+86,system does not rely on client-side validation .,SECURITY
+87,The system design assumes that user input is malicious .,SECURITY
+88,"Data is validated for type , length , format , and range .",SECURITY
+89,Data validation is consistent across the system .,SECURITY
+90,system avoids un-trusted input of file name and file paths .,SECURITY
+91,system does not accept file names or file paths from calling functions .,SECURITY
+92,Security decisions are not made based on user-supplied file names and paths .,SECURITY
+93,system does not use parent paths when data within the system is being accessed .,SECURITY
+94,Attempts to access resources using parent paths are blocked .,SECURITY
+95,"The system always asserts a character set : a locale and a country code , such as en .",SECURITY
+96,All system and user accounts are identified .,SECURITY
+97,system are partitioned into un-restricted and restricted areas using separate folders .,SECURITY
+98,system uses least-privileged accounts .,SECURITY
+99,system insures that minimum error information is returned in the event of authentication failure .,SECURITY
+100,"The system shall have the ability to support biometrics and biometrics plus passwords e.g. , fingerprint scan and fingerprint scan plus password .",SECURITY
+101,"system authenticates the user before any access is allowed to protected resources e.g. , Protected Health Information",SECURITY
+102,system authenticates standalone devices before access is allowed to protected resources .,SECURITY
+103,"If Structured Query Language SQL authentication is used e.g. , communication between the system server and the database server credentials are secured in storage and over the wire via Secure Socket Layer SSL or IP Security IPSec .",SECURITY
+104,Administration interfaces require strong authentication and authorization .,SECURITY
+105,"Remote administration channels are secured e.g. , SSL , VPN",SECURITY
+106,Configuration credentials and authentication tokens are not held in plain text in configuration files .,SECURITY
+107,user accounts and service accounts used for configuration management have only the minimum privileges required for the task .,SECURITY
+108,Sensitive data and secrets are not incorporated in code .,SECURITY
+109,Secrets are stored securely using a one-way hash .,SECURITY
+110,"Database keys , connections , passwords , or other secrets are not stored in plain text .",SECURITY
+111,Sensitive data is not logged in clear text by the system .,SECURITY
+112,"Database or file encryption for protection of sensitive data fields while the data is at rest i.e. , stored data is provided .",SECURITY
+113,Protection mechanisms are in place for sensitive data that is sent over the network .,SECURITY
+114,"Sensitive data is not transmitted using insecure protocols , such as FTP , telnet , tftp etc. , unless tunneled through an authenticated encrypted connection e.g. VPN .",SECURITY
+115,Sensitive data is not stored in persistent cookies .,SECURITY
+116,All user sessions involving financial transactions or sensitive data are encrypted using SSL/HTTPS .,SECURITY
+117,SSL is used to protect authentication cookies .,SECURITY
+118,"The system shall provide automatic logout of user when there has been no activity for a pre-defined period , maintaining transaction integrity .",SECURITY
+119,Session lifetime is limited to a pre-specified and configurable duration .,SECURITY
+120,Session state is protected from unauthorized access .,SECURITY
+121,Session identifiers are not passed in query strings .,SECURITY
+122,"Temporary objects are removed from the system , database connections are closed , and memory is released .",SECURITY
+123,system provides an automatic timeout if the session is idle for a pre-specified and configurable duration .,SECURITY
+124,system warns the user before the timeout and prompts the user to re-enter their password .,SECURITY
+125,"The system shall have the ability to support 128-bit SSL encryption , or higher , between the client browser and the application tier for any or all modules or sub-modules at organization discretion .",SECURITY
+126,Identify security standard SSL or FIPS encryption .,SECURITY
+127,Encryption capability for certain data transmissions that require security protection .,SECURITY
+128,system-level cryptography is used with no custom implementations .,SECURITY
+129,system provides secure information delivery over the Internet via encryption by using triple-DES Data Encryption Standard or the Advanced Encryption Standard AES,SECURITY
+130,"Encrypted data delivered over the Internet is transmitted via open protocols e.g. , SSL , XML encryption",SECURITY
+131,Cryptographic algorithm and key size for the system 's data encryption requirements is bit or stronger .,SECURITY
+132,Encryption keys are secured .,SECURITY
+133,Key management procedure to secure and manage the encryption keys is defined .,SECURITY
+134,"All input parameters are validated including form fields , query strings , cookies , and HTTP headers .",SECURITY
+135,Cookies with sensitive data e.g. authentication cookies are encrypted .,SECURITY
+136,Sensitive data is not passed in query strings or form fields .,SECURITY
+137,Security decisions do not rely on HTTP header information .,SECURITY
+138,system exception handling minimizes information disclosure in case of an exception .,SECURITY
+139,"system returns generic error messages to the system , to avoid disclosure of sensitive information .",SECURITY
+140,system code does not rely on internal system generated error handling .,SECURITY
+141,The system provides error-handling processes .,SECURITY
+142,"Private and sensitive data for example , passwords are not logged .",SECURITY
+143,"The system shall have a customizable online documentation and training materials such as context-specific help , search capability , organization-specific business process documentation and process maps .",USABILITY
+144,"The system shall allow for field level edit checks for transactions during data entry and provide immediate user feedback , including error messages and possible corrective actions",USABILITY
+145,The system shall have the ability to design a preferred sequence to make data-entry columns and fields match the order of information in organization source documents .,USABILITY
+146,The system shall allow for the option of auto-fill capability per transaction or field entry throughout all modules,USABILITY
+147,"The system shall have the ability to restrict free form entry e.g. , provide drop down calendar for date field",USABILITY
+148,"On-line , interactive help with support for hyperlink technology and industry standard formats e.g. , HTML file formats",MAINTAINABILITY
+149,Intelligent spell checking of text fields,USABILITY
+150,"The system shall present data to user such that a minimum of navigational effort is required , including :",USABILITY
+151,"The data elements required to complete a job function , whether to inquire or read only or data entry must be readily available .",USABILITY
+152,The user interface shall integrate information from multiple components into a unified display by business area or work type .,USABILITY
+153,The system shall be able to handle an average transaction load with an average CPU utilization of no more than little-little of the CPU capacity .,PERFORMANCE
+154,The peak CPU utilization shall never exceed most of CPU capacity at any given time .,PERFORMANCE
+155,The system shall have a response time where the average transaction on the server needs to occur on average less than 1 second .,PERFORMANCE
+156,The response time for the most common requests to reach a user shall not exceed 3 seconds .,PERFORMANCE
+157,The solution shall maintain most availability -- including planned maintenance .,AVAILABILITY
+158,The system shall track system up time and transaction response times in order to demonstrate operation within acceptable levels .,AVAILABILITY
+159,"The system shall complete all of simple , single-screen online inquiry transactions within one second , during peak usage .",PERFORMANCE
+160,"The system shall complete an average of most of all online update transactions fast over any 60-minute period , during peak usage .",PERFORMANCE
+161,"The system shall test application enhancements , fixes , and upgrades and assure the integrity of the resulting data .",MAINTAINABILITY

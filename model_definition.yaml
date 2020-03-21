@@ -1,0 +1,13 @@
+input_features:
+  -
+    name: text
+    type: text
+
+
+output_features:
+  -
+    name: label
+    type: category
+
+training:
+  epochs: 50
