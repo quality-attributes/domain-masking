@@ -2,7 +2,8 @@ input_features:
   -
     name: text
     type: text
-
+    level: word
+    encoder: parallel_cnn
 
 output_features:
   -
@@ -10,4 +11,4 @@ output_features:
     type: category
 
 training:
-  epochs: 50
+  epochs: 100

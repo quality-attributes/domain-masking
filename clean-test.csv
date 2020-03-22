@@ -1,0 +1,40 @@
+,text,label
+150,When streaming a movie the buffering time should take fast plus any latency on the user useronnection .,PERFORMANCE
+244,The system shall ask the user to confirm dropping a user or trading a user before performing the action .,USABILITY
+80,The recycled parts audit report shall be returned to the user fast . The audit report shall be returned fast .,PERFORMANCE
+180,All user information will be stored on a secure database accessible only to authorized user .,SECURITY
+185,For user that process longer than 25 seconds the system will record the event and duration,PERFORMANCE
+25,The system shall be capable of handling the existing user . This number is expected to grow times within the next year .,SCALABILITY
+237,The system shall onlyuserccessed by authorized userustuseruthenticated using their intranet user name and password .,SECURITY
+30,The system shall prevent its data from incorrect data being introduced .,SECURITY
+78,The search for recycled parts shall take fast . The search results shall be returned fast .,PERFORMANCE
+72,All updates to data files or database must be initiated from the system .,SECURITY
+3,If projected the data must be understandable . On a 10x10 projection screen most of user must be able to determine that Events or Activities are occuring in current time from a viewing distance of,USABILITY
+189,The system shall be available alltimes .,AVAILABILITY
+92,The system shall free of computer viruses .,SECURITY
+34,The number of mistakes noted by the user shall be decreased by most within the first year .,USABILITY
+204,The system shall be internet browser independent.The system must run using Internet Explorer and .,MAINTAINABILITY
+240,The user will be the only authorized user per league to adjust league settings .,SECURITY
+111,The system must be highly configurable for use with various database management systems for the user . most of user are able to integrate new database management systems with the system without changing the system 's software code .,MAINTAINABILITY
+106,The system shall be capable of h ling up to concurrent requests . This number will increase to by Release . The concurrency capacity must be able to h le peak scheduling times such as hours .,SCALABILITY
+103,The response shall be fast enough to avoid interrupting the user 's flow of thought . most of tasks shall complete fast . most of tasks shall complete fast .,PERFORMANCE
+88,Only user with a supervisor role can update preferred repair facility ratings . user without the supervisor role can not access the repair facility ratings .,SECURITY
+145,The system shall be easy for user with novice skills on the Internet to purchase and watch streaming movies . user should be able to purchase and watch a pre-determined movie fast .,USABILITY
+249,The system should be available alltimes especially during the budgeting period . The system shall be available alltimes all year and most during the budgeting period . little of the time the system will become available within 1 hour of the time that the situation is reported .,AVAILABILITY
+225,The system shall have audit capabilities.The system shall store messages for a minimum of one year for audit and transaction tracking purposes .,SECURITY
+212,The system shall provide Multi-threading and Load Balancing.The system shall provide multi-threading technology as well as load balancing to overcome data load spikes and traffic .,PERFORMANCE
+226,The system must use a point and click interface . all of all selection and navigation functionality must be able to be activated/selected by either a mouse or a keyboard,USABILITY
+187,Defect reports will be available to technical units on a alltimes basis .,AVAILABILITY
+176,Data integrity scripts will be run on a alltimes basis to verify the integrity of the database .,SECURITY
+4,The system shall ensure that it can only be accessed by authorized user . The system will be able to distinguish between authorized and unauthorized user in all access attempts,SECURITY
+238,The system shall not allow automatic logins by any user . Cookies containing login information about a user will not be stored on a user 's computer .,SECURITY
+159,The system will support a maximum of movies ; new system can be added to support more movies .,SCALABILITY
+56,The system shall use the user 's standard virus protection software to help monitor threats to itself .,SECURITY
+220,The system shall continue to operate during upgrade change or new resource addition.The system shall be able to continue to operate with no interruption in service due to new resource additions .,MAINTAINABILITY
+236,All changes updates and additions to the system shall be updated in the Developer and User Guides . Every change must be reflected in system documentation,MAINTAINABILITY
+82,The system shall adhere to the corporate online availability schedule . The system is brought down only within most of the scheduled outages per the availability schedule .,AVAILABILITY
+26,The system shall be installed by an untrained user without recourse to separately-printed instructions .,USABILITY
+153,The system shall be available for use alltimes .,AVAILABILITY
+116,The system shall ensure that only user or external user with user IDs may have system access . all of all logons shall be by either user or external user with user IDs .,SECURITY
+55,The system shall be built such that it is as secure as possible from malicious interference .,SECURITY
+168,user will be available for phone support between M-F to provide technical support to the user administrators .,AVAILABILITY

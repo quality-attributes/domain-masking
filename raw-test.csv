@@ -1,0 +1,40 @@
+,text,label
+150,When streaming a movie the buffering time should take no longer than 10 seconds (plus any latency on the user's connection.),PERFORMANCE
+244,The application shall ask the user to confirm dropping a player or trading a player before performing the action.,USABILITY
+80,The recycled parts audit report shall be returned to the user within 10 seconds. The audit report shall be returned within 10 seconds.,PERFORMANCE
+180,All customer information will be stored on a secure database accessible only to authorized personnel.,SECURITY
+185,For leads that process longer than 25 seconds the system will record the event and duration,PERFORMANCE
+25,The product shall be capable of handling the existing 1000 users. This number is expected to grow 5 times within the next year.,SCALABILITY
+237,The system shall only be accessed by authorized Corporate Community Grants (CCR) employees. Users must be authenticated using their IBM intranet user name and password.,SECURITY
+30,The product shall prevent its data from incorrect data being introduced.,SECURITY
+78,The search for recycled parts shall take no longer than 15 seconds. The search results shall be returned in under 15 seconds.,PERFORMANCE
+72,All updates to data files or database must be initiated from the Disputes System.,SECURITY
+3,If projected the data must be understandable. On a 10x10 projection screen 90% of viewers must be able to determine that Events or Activities are occuring in current time from a viewing distance of 100,USABILITY
+189,The product shall be available 24 hours per day seven days per week.,AVAILABILITY
+92,The product shall free of computer viruses.,SECURITY
+34,The number of mistakes noted by the students shall be decreased by 50% in the first year.,USABILITY
+204,The product shall be internet browser independent.The product must run using Internet Explorer and Netscape Navigator.,MAINTAINABILITY
+240,The Commissioner will be the only authorized user per league to adjust league settings.,SECURITY
+111,The product must be highly configurable for use with various database management systems for the end users. 80% of end users are able to integrate new database management systems with the product without changing the product's software code.,MAINTAINABILITY
+106,The product shall be capable of handling up to 1 000 concurrent requests. This number will increase to 2 000 by Release 2. The concurrency capacity must be able to handle peak scheduling times such as early morning and late afternoon hours.,SCALABILITY
+103,The response shall be fast enough to avoid interrupting the user's flow of thought. 90% of tasks shall complete within 5 seconds. 98% of tasks shall complete within 8 seconds.,PERFORMANCE
+88,Only adjusters with a supervisor role can update preferred repair facility ratings. Users without the supervisor role cannot access the repair facility ratings.,SECURITY
+145,The product shall be easy for customers with novice skills on the Internet to purchase and watch streaming movies. Customers should be able to purchase and watch a pre-determined movie in under 3 minutes.,USABILITY
+249,The RFS system should be available 24/7 especially during the budgeting period. The RFS system shall be available 90% of the time all year and 98% during the budgeting period. 2% of the time the system will become available within 1 hour of the time that the situation is reported.,AVAILABILITY
+225,The product shall have audit capabilities.The product shall store messages for a minimum of one year for audit and transaction tracking purposes.,SECURITY
+212,The product shall provide Multi-threading and Load Balancing.The product shall provide multi-threading technology as well as load balancing to overcome data load spikes and traffic.,PERFORMANCE
+226,The system must use a point and click interface. 100% of all selection and navigation functionality must be able to be activated/selected by either a mouse or a keyboard,USABILITY
+187,Defect reports will be available to technical units on a 24x7 basis.,AVAILABILITY
+176,Data integrity scripts will be run on a weekly basis to verify the integrity of the database.,SECURITY
+4,The product shall ensure that it can only be accessed by authorized users. The product will be able to distinguish between authorized and unauthorized users in all access attempts,SECURITY
+238,The WCS system shall not allow automatic logins by any user. Cookies containing WCS login information about a user will not be stored on a user's computer.,SECURITY
+159,The streaming server will support a maximum of 700 movies; new servers can be added to support more movies.,SCALABILITY
+56,The system shall use the organization's standard virus protection software to help monitor threats to itself.,SECURITY
+220,The product shall continue to operate during upgrade change or new resource addition.The product shall be able to continue to operate with no interruption in service due to new resource additions.,MAINTAINABILITY
+236,All changes updates and additions to the WCS system shall be updated in the WCS Developer and WCS User Guides. Every change must be reflected in WCS system documentation,MAINTAINABILITY
+82,The product shall adhere to the corporate online availability schedule. The application is brought down only within 98% of the scheduled outages per the availability schedule.,AVAILABILITY
+26,The product shall be installed by an untrained realtor without recourse to separately-printed instructions.,USABILITY
+153,The website shall be available for use 24 hours per day 365 days per year.,AVAILABILITY
+116,The product shall ensure that only company employees or external users with company-approved user IDs may have product access. 100% of all logons shall be by either company employees or external users with company-approved user IDs.,SECURITY
+55,The system shall be built such that it is as secure as possible from malicious interference.,SECURITY
+168,Velkat staff will be available for phone support between 7am-7pm M-F to provide technical support to the Izogn administrators.,AVAILABILITY
