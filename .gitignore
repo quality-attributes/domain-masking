@@ -1,6 +1,10 @@
 # Created by https://www.gitignore.io/api/macos,python
 # Edit at https://www.gitignore.io/?templates=macos,python
 
+### Environment ###
+
+.env
+
 ### macOS ###
 # General
 .DS_Store
