@@ -1,6 +1,6 @@
 {
     "command": "/usr/local/bin/ludwig experiment --model_name clean --experiment_name domain-masking --data_train_csv train.csv --data_test_csv test.csv --model_definition_file model_definition.yaml",
-    "commit_hash": "b9bedd4aae13",
+    "commit_hash": "021390dd99f0",
     "input_data_test": "test.csv",
     "input_data_train": "train.csv",
     "ludwig_version": "0.2.1",

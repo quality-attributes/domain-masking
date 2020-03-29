@@ -1,9 +1,9 @@
 {
-    "command": "/Users/adara/Desktop/Quality-Attributes/domain-masking/venv/bin/ludwig experiment --model_name raw --experiment_name domain-masking --data_train_csv raw_train.csv --data_test_csv raw_test.csv --model_definition_file model_definition.yaml",
-    "commit_hash": "b9bedd4aae13",
+    "command": "/usr/local/bin/ludwig experiment --model_name raw --experiment_name domain-masking --data_train_csv raw_train.csv --data_test_csv raw_test.csv --model_definition_file model_definition.yaml",
+    "commit_hash": "021390dd99f0",
     "input_data_test": "raw_test.csv",
     "input_data_train": "raw_train.csv",
-    "ludwig_version": "0.2.2.3",
+    "ludwig_version": "0.2.1",
     "model_definition": {
         "combiner": {
             "type": "concat"
