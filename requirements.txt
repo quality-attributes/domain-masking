@@ -39,7 +39,7 @@ tensorflow==1.15.4
 tensorflow-estimator==1.15.1
 termcolor==1.1.0
 tqdm==4.44.1
-urllib3==1.25.8
+urllib3==1.26.5
 websocket-client==0.57.0
 Werkzeug==1.0.0
 wrapt==1.12.1
